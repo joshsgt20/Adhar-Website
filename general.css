@@ -1,0 +1,110 @@
+@import url("https://use.typekit.net/rwg4trk.css");
+
+body{
+
+ margin: auto;
+ color: black;
+}
+
+
+h1{
+   font-family: Rockwell ;
+   font-size: 4vw;
+   font-weight: 400;
+
+}
+
+h2{
+   font-size: 3vw;
+   font-family: Rockwell;
+}
+
+p{
+ font-family: Rockwell;
+ font-size: 2vw;
+}
+
+
+header img{
+ max-width: 30vw;
+
+}
+
+.PageTitle{
+ color: white;
+ background-color: #af64c4;
+ margin: 0;
+ overflow: hidden;
+ font-size: 9vw;
+ display: flex;
+ justify-content: space-between;
+ text-align: center;
+ padding-left: 2vw;
+ padding-right: 2vw;
+ max-height: 25vh;
+}
+
+
+
+
+header nav{
+ display: flex;
+ justify-content: space-around;
+ z-index: 3;
+  background-color: #e2a5f3;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+
+
+
+}
+
+header a{
+ color: white;
+  font-family: Rockwell;
+ text-decoration: none;
+ width: 15%;
+ margin: auto;
+ text-align: center;
+ font-size: 2vw;
+ background-color: #5b0f70;
+ border-radius: 1vw;
+ border: 0.3vw solid #490c5a;
+ border-radius: 0.5vw;s
+ box-shadow: 1px 1px 3px black;
+ z-index: 3;
+ padding: 0.2vw;
+
+}
+
+nav a:hover{
+ background-color: #490c5a;
+ transition: 0.2s;
+ transform: scale(1.05);
+ box-shadow: 2px 2px 5px black;
+}
+
+
+
+
+
+
+
+
+footer{
+ background-color: ;
+ width: 100%;
+ height: auto;
+ color: white;
+ margin: auto;
+ padding: 0;
+}
+
+footer p{
+ font-size: 1.3vw;
+ color: white;
+ margin: auto;
+ padding: 1vh;
+ padding-top: 1vh;
+ padding-bottom: 2vh;
+}
