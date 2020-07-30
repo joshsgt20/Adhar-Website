@@ -48,6 +48,8 @@ header nav{
  justify-content: space-around;
  z-index: 3;
    background-color: #ad77bb;
+   font-family: Rockwell;
+    font-size: 1.8vw;
 
 }
 
@@ -58,7 +60,6 @@ header a{
  width: 15%;
  margin: auto;
  text-align: center;
- font-size: 2vw;
  background-color: #ad77bb;
  padding-top: 4vh;
  padding-bottom: 4vh;
@@ -76,7 +77,10 @@ nav a:hover{
 
 
 
-
+.Main{
+  width: 90%;
+  margin: auto;
+}
 
 
 footer{
@@ -110,10 +114,11 @@ color: white;
   width: 15%;
   margin: auto;
   text-align: center;
-  font-size: 2vw;
   background-color: #ad77bb;
   padding-top: 4vh;
   padding-bottom: 4vh;
+  cursor: pointer
+
 
 }
 
@@ -122,10 +127,12 @@ color: white;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+
 }
 
  .dropdown:hover, .dropbtn {
   background-color: #7a4488;
+
 }
 
 .dropdown-content {
@@ -133,6 +140,8 @@ color: white;
   position: absolute;
   z-index: 1;
   width: 20%;
+  padding-top: 3vh;
+
 }
 
 .dropdown-content a {
@@ -143,10 +152,11 @@ color: white;
   text-decoration: none;
   display: block;
   text-align: left;
+
 }
 
 .dropdown-content a:hover {
-  background-color: #7a4550;
+  background-color: #ad77bb;
 
 }
 
@@ -167,9 +177,15 @@ color: white;
   display: flex;
   justify-content: center;
   color: white;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
   border: 0.1vw solid #333349;
+    font-family: Rockwell;
+    font-size: 1.8vw;;
+}
+
+#SmallMenu a:hover{
+  background-color: #7a4488
 }
 
 #SmallMenuOpen{
@@ -179,15 +195,164 @@ color: white;
   display: none;
   padding-left: 40vw;
   padding-top: 1vh;
-
 }
 @media screen and (max-width: 700px) {
 .Navigation, .dropdown{
   display: none;
 }
+
 #SmallMenuOpen{
   display: flex;
+}
+}
+
+@media screen and (min-width:700px){
+  #SmallMenu a{
+    display: none;
+  }
+}
+
+
+
+.SlideshowContainer {
+  width: 90%;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+.SlideshowContainer img, video{
+  width: 100%;
+  padding-top: 0;
+  height: auto;
+  max-height: 100%;
+  overflow: hidden;
+  z-index: -1;
+
 
 
 }
+
+.Caption {
+  color: white;
+  padding: 1vh 1vw;
+  position: absolute;
+  background-color: #7a4488;
+  border: 0.2vw solid black;
+  font-size: 2vw;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+  text-decoration: none;
+  box-shadow: 1px 1px 3px black;
+
+}
+
+.Caption:hover{
+  transition: 0.2s;
+  transform: scale(1.03);
+  box-shadow: 2px 2px 5px black;
+  background-color: #7a4488;
+  color: black;
+}
+
+.Dot {
+  height: 2vw;
+  width: 2vw;
+  background-color: #7a4488;
+  border-radius: 40%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.background {
+  background-color: #ad77bb;
+}
+
+/* Fading animation */
+.FadeAnimation {
+  -webkit-animation-name: FadeAnimation;
+  -webkit-animation-duration: 1.5s;
+  animation-name: FadeAnimation;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes FadeAnimation {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes FadeAnimation {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.ProjectsCollection{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
+
+}
+
+.Project{
+  color: white;
+  width: 40%;
+  height: auto;
+  margin: auto;
+  margin: 1%;
+  border: 0.2vw solid black;
+  box-shadow: 1px 1px 3px black;
+  overflow: hidden;
+  position: relative;
+}
+
+.ProjectPortrait{
+  color: white;
+  width: 30%;
+  height: auto;
+  margin: auto;
+  margin: 1%;
+  border: 0.2vw solid black;
+  box-shadow: 1px 1px 3px black;
+  overflow: hidden;
+  position: relative;
+}
+
+.Project img, .ProjectPortrait img{
+  width: 100%;
+  display: block;
+  background-color: white;
+  height: auto;
+}
+
+
+
+.ProjectInfo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+
+.Project:hover .ProjectInfo, .ProjectPortrait:hover .ProjectInfo{
+  height: 100%;
+}
+
+.ProjectText {
+  color: black;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
