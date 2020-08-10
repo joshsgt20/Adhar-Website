@@ -6,6 +6,12 @@ body{
  color: black;
 }
 
+.topmenu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
 
 h1{
    font-family: Rockwell ;
@@ -37,16 +43,18 @@ p{
  background-color: #7a4488;
  overflow: hidden;
  text-align: center;
-
+ font-family: Rockwell;
+ z-index: 2;
+ padding: 0;
+ font-size: 1.5vw;
+ font-style: italic;
 }
-
 
 
 
 header nav{
  display: flex;
  justify-content: space-around;
- z-index: 3;
    background-color: #ad77bb;
    font-family: Rockwell;
     font-size: 1.8vw;
@@ -78,7 +86,7 @@ nav a:hover{
 
 
 .Main{
-  width: 90%;
+  width: 92%;
   margin: auto;
 }
 
@@ -99,12 +107,6 @@ color: white;
  padding: 1vh;
 
 }
-
-
-
-
-
-
 
 
 
@@ -135,11 +137,15 @@ color: white;
 
 }
 
+.dropdown-content a:hover {
+  background-color: #7a4488;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
   z-index: 1;
-  width: 20%;
+  width: auto;
   padding-top: 3vh;
 
 }
@@ -196,43 +202,36 @@ color: white;
   padding-left: 40vw;
   padding-top: 1vh;
 }
-@media screen and (max-width: 700px) {
-.Navigation, .dropdown{
-  display: none;
-}
-
-#SmallMenuOpen{
-  display: flex;
-}
-}
-
-@media screen and (min-width:700px){
-  #SmallMenu a{
-    display: none;
-  }
-}
 
 
 
 .SlideshowContainer {
-  width: 90%;
+  width: 100%;
   position: relative;
   margin: auto;
   overflow: hidden;
 }
 
-.SlideshowContainer img, video{
+.SlideshowContainer img{
   width: 100%;
   padding-top: 0;
   height: auto;
   max-height: 100%;
   overflow: hidden;
   z-index: -1;
-
-
-
 }
 
+@keyframes Fade{
+  from{opacity: 0.5; }
+  to {opacity: 2;}
+}
+
+.Fade{
+  animation-name: Fade;
+  animation-duration: 4s;
+  z-index: -1
+
+}
 .Caption {
   color: white;
   padding: 1vh 1vw;
@@ -256,36 +255,7 @@ color: white;
   color: black;
 }
 
-.Dot {
-  height: 2vw;
-  width: 2vw;
-  background-color: #7a4488;
-  border-radius: 40%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
 
-.background {
-  background-color: #ad77bb;
-}
-
-/* Fading animation */
-.FadeAnimation {
-  -webkit-animation-name: FadeAnimation;
-  -webkit-animation-duration: 1.5s;
-  animation-name: FadeAnimation;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes FadeAnimation {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes FadeAnimation {
-  from {opacity: .4}
-  to {opacity: 1}
-}
 
 .ProjectsCollection{
   display: flex;
@@ -297,9 +267,8 @@ color: white;
 
 .Project{
   color: white;
-  width: 40%;
+  width: 30%;
   height: auto;
-  margin: auto;
   margin: 1%;
   border: 0.2vw solid black;
   box-shadow: 1px 1px 3px black;
@@ -309,9 +278,8 @@ color: white;
 
 .ProjectPortrait{
   color: white;
-  width: 30%;
+  width: 22%;
   height: auto;
-  margin: auto;
   margin: 1%;
   border: 0.2vw solid black;
   box-shadow: 1px 1px 3px black;
@@ -348,7 +316,7 @@ color: white;
 .ProjectText {
   color: black;
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 50%;
   width: 100%;
   -webkit-transform: translate(-50%, -50%);
@@ -356,3 +324,50 @@ color: white;
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+
+.Twitter{
+  width: auto;
+  height: 40vh;
+  overflow: scroll;
+  float: left;
+}
+
+.Instagram{
+  width: 50%;
+  height: 40vh;
+  overflow: scroll;
+  margin: auto;
+  float: right;
+}
+@media screen and (max-width: 800px) {
+  .Navigation, .dropdown{
+    display: none;
+  }
+  
+  #SmallMenuOpen{
+    display: flex;
+  }
+  
+  .Project{
+    width:80%;
+  }
+
+  .ProjectPortrait{
+    width: 60%;
+  }
+
+.Twitter{
+  width: 75%;
+  float: none;
+  margin: auto;
+}
+
+  }
+  
+  @media screen and (min-width:700px){
+    #SmallMenu a{
+      display: none;
+    }
+  }
+  

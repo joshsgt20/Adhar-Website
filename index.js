@@ -5,23 +5,37 @@ $(document).ready(function(RevealFAQ){
 });
 
 
-///Slideshow JS
-var slideIndex = 0;
-showSlides();
 
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("Slideshow");
-  var Dots = document.getElementsByClassName("Dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+window.onscroll = function() {KeepAtTop()};
+
+var header = document.getElementById("Menu","SmallMenuOpen");
+var topmenu = header.offsetTop;
+
+function KeepAtTop() {
+  if (window.pageYOffset > topmenu) {
+    header.classList.add("topmenu");
+  } else {
+    header.classList.remove("topmenu");
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  for (i = 0; i < Dots.length; i++) {
-    Dots[i].className = Dots[i].className.replace(" background", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  Dots[slideIndex-1].className += " background";
-  setTimeout(showSlides, 8000);
 }
+
+
+
+///Slideshow JS
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 7000);
+}
+
+
