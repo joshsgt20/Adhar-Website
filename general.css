@@ -1,7 +1,6 @@
 @import url("https://use.typekit.net/rwg4trk.css");
 
 body{
-
  margin: auto;
  color: black;
 }
@@ -21,7 +20,7 @@ h1{
 }
 
 h2{
-   font-size: 3vw;
+   font-size: 2vw;
    font-family: Rockwell;
 }
 
@@ -48,6 +47,7 @@ p{
  padding: 0;
  font-size: 1.5vw;
  font-style: italic;
+ 
 }
 
 
@@ -58,7 +58,6 @@ header nav{
    background-color: #ad77bb;
    font-family: Rockwell;
     font-size: 1.8vw;
-
 }
 
 
@@ -72,8 +71,6 @@ header a{
  padding-top: 4vh;
  padding-bottom: 4vh;
 
-
-
  }
 
 nav a:hover{
@@ -81,8 +78,16 @@ nav a:hover{
  transition: 0.2s;
 }
 
+.DonateLink{
+  background-color: #8bdcf9;
+  color: black;
+  font-weight: 600;
+}
 
 
+.DonateLink:hover{
+  background-color: #1db4e9;
+}
 
 
 .Main{
@@ -98,7 +103,7 @@ footer{
  height: auto;
  color: white;
  margin: auto;
- padding: 0;
+ padding: 3%;
 }
 
 footer p{
@@ -146,7 +151,8 @@ color: white;
   position: absolute;
   z-index: 1;
   width: auto;
-  padding-top: 3vh;
+  padding-top: 4vh;
+  width: 15%
 
 }
 
@@ -158,7 +164,9 @@ color: white;
   text-decoration: none;
   display: block;
   text-align: left;
-
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  
 }
 
 .dropdown-content a:hover {
@@ -202,172 +210,3 @@ color: white;
   padding-left: 40vw;
   padding-top: 1vh;
 }
-
-
-
-.SlideshowContainer {
-  width: 100%;
-  position: relative;
-  margin: auto;
-  overflow: hidden;
-}
-
-.SlideshowContainer img{
-  width: 100%;
-  padding-top: 0;
-  height: auto;
-  max-height: 100%;
-  overflow: hidden;
-  z-index: -1;
-}
-
-@keyframes Fade{
-  from{opacity: 0.5; }
-  to {opacity: 2;}
-}
-
-.Fade{
-  animation-name: Fade;
-  animation-duration: 4s;
-  z-index: -1
-
-}
-.Caption {
-  color: white;
-  padding: 1vh 1vw;
-  position: absolute;
-  background-color: #7a4488;
-  border: 0.2vw solid black;
-  font-size: 2vw;
-  text-align: center;
-  cursor: pointer;
-  z-index: 1;
-  text-decoration: none;
-  box-shadow: 1px 1px 3px black;
-
-}
-
-.Caption:hover{
-  transition: 0.2s;
-  transform: scale(1.03);
-  box-shadow: 2px 2px 5px black;
-  background-color: #7a4488;
-  color: black;
-}
-
-
-
-.ProjectsCollection{
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: space-evenly;
-
-}
-
-.Project{
-  color: white;
-  width: 30%;
-  height: auto;
-  margin: 1%;
-  border: 0.2vw solid black;
-  box-shadow: 1px 1px 3px black;
-  overflow: hidden;
-  position: relative;
-}
-
-.ProjectPortrait{
-  color: white;
-  width: 22%;
-  height: auto;
-  margin: 1%;
-  border: 0.2vw solid black;
-  box-shadow: 1px 1px 3px black;
-  overflow: hidden;
-  position: relative;
-}
-
-.Project img, .ProjectPortrait img{
-  width: 100%;
-  display: block;
-  background-color: white;
-  height: auto;
-}
-
-
-
-.ProjectInfo {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: white;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
-}
-
-
-.Project:hover .ProjectInfo, .ProjectPortrait:hover .ProjectInfo{
-  height: 100%;
-}
-
-.ProjectText {
-  color: black;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  width: 100%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-
-.Twitter{
-  width: auto;
-  height: 40vh;
-  overflow: scroll;
-  float: left;
-}
-
-.Instagram{
-  width: 50%;
-  height: 40vh;
-  overflow: scroll;
-  margin: auto;
-  float: right;
-}
-@media screen and (max-width: 800px) {
-  .Navigation, .dropdown{
-    display: none;
-  }
-  
-  #SmallMenuOpen{
-    display: flex;
-  }
-  
-  .Project{
-    width:80%;
-  }
-
-  .ProjectPortrait{
-    width: 60%;
-  }
-
-.Twitter{
-  width: 75%;
-  float: none;
-  margin: auto;
-}
-
-  }
-  
-  @media screen and (min-width:700px){
-    #SmallMenu a{
-      display: none;
-    }
-  }
-  

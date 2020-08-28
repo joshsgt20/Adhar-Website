@@ -1,0 +1,251 @@
+
+.SlideshowContainer {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .SlideshowContainer img{
+    width: 100%;
+    padding-top: 0;
+    height: auto;
+    max-height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  @keyframes Fade{
+    from{opacity: 0.5; }
+    to {opacity: 2;}
+  }
+  
+  .Fade{
+    animation-name: Fade;
+    animation-duration: 4s;
+    z-index: -1
+  
+  }
+  .Caption {
+    color: white;
+    padding: 1vh 1vw;
+    position: absolute;
+    background-color: #7a4488;
+    border: 0.2vw solid black;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+    text-decoration: none;
+    box-shadow: 1px 1px 3px black;
+  
+  }
+  
+  .Caption:hover{
+    transition: 0.2s;
+    transform: scale(1.03);
+    box-shadow: 2px 2px 5px black;
+    background-color: #7a4488;
+    color: black;
+  }
+  
+  
+  
+  .ProjectsCollection{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+  
+  .Project{
+    color: white;
+    width: 30%;
+    height: auto;
+    margin: 1%;
+    border: 0.2vw solid black;
+    box-shadow: 1px 1px 3px black;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .ProjectPortrait{
+    color: white;
+    width: 22%;
+    height: auto;
+    margin: 1%;
+    border: 0.2vw solid black;
+    box-shadow: 1px 1px 3px black;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .Project img, .ProjectPortrait img{
+    width: 100%;
+    display: block;
+    background-color: white;
+    height: auto;
+  }
+  
+  
+  
+  .ProjectInfo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f4eef7;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .Project:hover .ProjectInfo, .ProjectPortrait:hover .ProjectInfo{
+    height: 100%;
+  }
+  
+  .ProjectText {
+    color: black;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 98%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .ProjectText p{
+    font-size: 1.5vw;
+  }
+  
+  .Twitter{
+    width: auto;
+    height: 40vh;
+    overflow: scroll;
+    float: left;
+  }
+  
+  .Instagram{
+    width: 50%;
+    height: 40vh;
+    overflow: scroll;
+    margin: auto;
+    float: right;
+  }
+  
+  
+    
+    @media screen and (min-width:700px){
+      #SmallMenu a{
+        display: none;
+      }
+    }
+    
+    .Donate{
+      background-color: #7a4488;
+      width: 100%;
+      height: auto;
+      margin: auto;
+      text-align: center;
+      color: white;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      display: flex;
+      flex-wrap: wrap;
+  
+    }
+  
+    .DonateButton{
+      background-color: white;
+      width: 25%;
+      min-height: 25vh;
+      margin: auto;
+      color: black;
+      border: 1.2vw solid #d5cfd8;
+      border-radius: 2vw;
+      padding: 1%;
+      
+    }
+    .DonateButton button{
+      background-color: #8bdcf9;
+      color: black;
+      font-weight: 600;
+      font-size: 2vw;
+      border: 0.2vw solid black;
+      padding: 1vw;
+      font-family: Rockwell
+    }
+  
+    .DonateButton button:hover{
+      background-color: #1db4e9;
+    }
+  
+    .fa {
+      padding: 3%;
+      font-size: 3vw;
+      min-width: 12%;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+  
+    @media screen and (max-width: 700px) {
+      .Navigation, .dropdown, .DonateLink{
+        display: none;
+      }
+      
+      #SmallMenuOpen{
+        display: flex;
+      }
+
+      .ProjectText p, h2{
+          font-size: 3.5vw;
+      }
+      
+      .Project{
+        width:80%;
+      }
+    
+      .ProjectPortrait{
+        width: 60%;
+      }
+    
+    .Twitter{
+      width: 30%;
+      float: none;
+      margin: auto;
+    }
+    
+    .DonateButton{
+      width: 85%;
+      min-height: 5vh;
+      margin-top: 1vh;
+      margin-bottom: 1vh;
+    }
+    
+    .fa{
+        min-width: 3%;
+        padding: 2%;
+    }
+      }
