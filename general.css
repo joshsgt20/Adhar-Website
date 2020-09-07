@@ -103,7 +103,9 @@ footer{
  height: auto;
  color: white;
  margin: auto;
- padding: 3%;
+ padding-top: 2%;
+ padding-bottom: 2%;
+
 }
 
 footer p{
@@ -209,4 +211,15 @@ color: white;
   display: none;
   padding-left: 40vw;
   padding-top: 1vh;
+}
+
+
+@media screen and (max-width: 700px) {
+  .Navigation, .dropdown, .DonateLink{
+    display: none;
+  }
+  
+  #SmallMenuOpen{
+    display: flex;
+  }
 }

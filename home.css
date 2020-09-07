@@ -121,12 +121,7 @@
     font-size: 1.5vw;
   }
   
-  .Twitter{
-    width: auto;
-    height: 40vh;
-    overflow: scroll;
-    float: left;
-  }
+ 
   
   .Instagram{
     width: 50%;
@@ -181,6 +176,7 @@
   
     .DonateButton button:hover{
       background-color: #1db4e9;
+      transition: 0.2s;
     }
   
     .fa {
@@ -231,12 +227,7 @@
         width: 60%;
       }
     
-    .Twitter{
-      width: 30%;
-      float: none;
-      margin: auto;
-    }
-    
+ 
     .DonateButton{
       width: 85%;
       min-height: 5vh;

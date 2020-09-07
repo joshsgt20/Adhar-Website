@@ -1,0 +1,114 @@
+
+label{
+    display: block;
+    padding: 1%;
+
+  
+  }
+
+
+form{
+    font-family: Rockwell;
+    font-size: 2vw;
+    padding: 0;
+  
+}
+
+  input, textarea{
+      width: 90%;
+      font-family: rockwell;
+      font-size: 1.5vw;
+      background-color: #f4eef75b;
+
+  }
+
+
+  input[type=submit]{
+    color: white;
+    padding: 1vh 1vw;
+    background-color: #7a4488;
+    border: 0.2vw solid black;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 1px 1px 3px black;
+    font-family: Rockwell;
+    width: 20%
+  }
+
+  input[type=submit]:hover{
+    transition: 0.2s;
+    transform: scale(1.03);
+    box-shadow: 2px 2px 5px black;
+    background-color: #7a4488;
+  }
+  
+  .contact{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 100%;
+      padding-left:0 ;
+  }
+
+  .contact a{
+      text-decoration: none;
+      color: #7a4488
+  }
+  
+  .contact a:hover{
+    text-decoration: none;
+    color: #412149
+}
+
+.fa {
+    padding: 2%;
+    min-width: 3%;
+    font-size: 3vw;
+    text-align: center;
+    text-decoration: none;
+    margin: 1% 2%;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+
+  .Twitter{
+      width: 70%;
+      height: 50vh;
+      overflow: scroll;
+      margin: auto;
+
+  }
+
+
+@media screen and (max-width: 700px) {
+
+    .contact{
+        justify-content: center;
+        margin: auto;
+    }
+    
+.contact div{
+    margin: auto;
+    width: 100%;
+    }
+}
+

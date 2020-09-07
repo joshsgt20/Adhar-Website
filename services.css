@@ -1,0 +1,40 @@
+.Contact{
+    width:100%;
+    background-color: #7a4488;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+}
+
+.GetSupport{
+    margin: auto;
+    background-color: white;
+    justify-content: center;
+    width: 60%;
+    border: 1.2vw solid #d5cfd8;
+    border-radius: 1vw;
+    padding: 1%;
+    text-align: center;
+}
+
+.Support{
+    color: white;
+    padding: 1vh 1vw;
+    background-color: #7a4488;
+    border: 0.2vw solid black;
+    font-size: 2vw;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 1px 1px 3px black;
+    font-family: Rockwell;
+    width: 40%;
+    margin: auto;
+}
+
+.Support:hover{
+    transition: 0.2s;
+    transform: scale(1.03);
+    box-shadow: 2px 2px 5px black;
+    background-color: #663872;
+}
