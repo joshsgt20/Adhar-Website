@@ -1,9 +1,22 @@
 .Contact{
-    width:100%;
+    width: 100%;
     background-color: #7a4488;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    margin: auto;
     display: flex;
+    ;
+}
+
+.Links{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly
+    ;
+}
+
+ul, ol{
+    font-family: Rockwell;
+    font-size: 1.5vw;;
 }
 
 .GetSupport{
@@ -19,16 +32,16 @@
 
 .Support{
     color: white;
-    padding: 1vh 1vw;
+    padding: 0;
     background-color: #7a4488;
     border: 0.2vw solid black;
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-align: center;
     cursor: pointer;
     text-decoration: none;
     box-shadow: 1px 1px 3px black;
     font-family: Rockwell;
-    width: 40%;
+    width: 30%;
     margin: auto;
 }
 
@@ -37,4 +50,22 @@
     transform: scale(1.03);
     box-shadow: 2px 2px 5px black;
     background-color: #663872;
+}
+
+.ServiceImages{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#Services img{
+    width: 20%;
+    margin: auto;
+}
+
+#DomesticAbuse img{
+    width: 40%;
+    margin: auto;
 }
