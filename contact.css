@@ -8,7 +8,7 @@ label{
 
 
 form{
-    font-family: Rockwell;
+    font-family: rockwell-nova;
     font-size: 1.5vw;
     padding: 0;
   
@@ -16,7 +16,7 @@ form{
 
   input, textarea{
       width: 90%;
-      font-family: rockwell;
+      font-family: rockwell-nova;
       font-size: 1.5vw;
       background-color: #f4eef75b;
 
@@ -33,7 +33,7 @@ form{
     cursor: pointer;
     text-decoration: none;
     box-shadow: 1px 1px 3px black;
-    font-family: Rockwell;
+    font-family: rockwell-nova;
     width: 15%
   }
 

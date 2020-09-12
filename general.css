@@ -1,4 +1,5 @@
-@import url("https://use.typekit.net/rwg4trk.css");
+@import url("https://use.typekit.net/fzk2bzs.css");
+
 
 html{
   scroll-behavior: smooth;
@@ -15,19 +16,19 @@ body{
 }
 
 h1{
-   font-family: Rockwell ;
+   font-family: rockwell-nova ;
    font-size: 2.2vw;
-   font-weight: 700;
+   
 }
 
 h2{
    font-size: 1.8vw;
-   font-family: Rockwell;
-   font-weight: 600;
+   font-family: rockwell-nova;
+   
 }
 
 p{
- font-family: Rockwell;
+ font-family: rockwell-nova;
  font-size: 1.5vw;
 }
 
@@ -43,7 +44,7 @@ p{
  background-color: #7a4488;
  overflow: hidden;
  text-align: center;
- font-family: Rockwell;
+ font-family: rockwell-nova;
  z-index: 2;
  padding: 0;
  font-size: 1.2vw;
@@ -55,7 +56,7 @@ header nav{
  display: flex;
  justify-content: space-around;
    background-color: #ad77bb;
-   font-family: Rockwell;
+   font-family: rockwell-nova;
     font-size: 1.5vw;
     }
 
@@ -196,7 +197,7 @@ color: white;
   padding-top: 1vh;
   padding-bottom: 1vh;
   border: 0.1vw solid #333349;
-    font-family: Rockwell;
+    font-family: rockwell-nova;
     font-size: 1.8vw;;
 }
 

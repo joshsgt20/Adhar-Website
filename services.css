@@ -15,7 +15,7 @@
 }
 
 ul, ol{
-    font-family: Rockwell;
+    font-family: rockwell-nova;
     font-size: 1.5vw;;
 }
 
@@ -40,7 +40,7 @@ ul, ol{
     cursor: pointer;
     text-decoration: none;
     box-shadow: 1px 1px 3px black;
-    font-family: Rockwell;
+    font-family: rockwell-nova;
     width: 30%;
     margin: auto;
 }
