@@ -65,7 +65,56 @@ ul, ol{
     margin: auto;
 }
 
+#Services2 img{
+    width: 30%;
+    margin: auto;
+}
 #DomesticAbuse img{
     width: 40%;
     margin: auto;
 }
+
+.Emails{
+    text-decoration: none;
+    color: #7a4488
+}
+
+.Emails:hover{
+  text-decoration: none;
+  color: #412149
+}
+
+table {
+    font-family: Rockwell;
+    border-collapse: collapse;
+    width: 90%;
+    font-size: 1.5vw;
+    border: 0.2vw solid black;
+    margin: auto;
+   
+  }
+  
+
+  th{
+      background-color: #7a4488;
+      text-align: left;
+      padding: 1%;
+      border: 0.2vw solid black;
+      color: white;
+
+  }
+
+  td{
+    text-align: left;
+    padding: 1%;
+    border: 0.2vw solid black;
+    font-weight: 500;
+  }
+  
+
+  @media screen and (min-width: 1200px) {
+    table{
+      font-size: 1vw;;
+    }
+    
+    }

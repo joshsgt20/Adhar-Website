@@ -20,7 +20,7 @@ if ($sent) {
   </head>
   <body>
   <h1>Thank You</h1>
-  <p>Thank you for your feedback.</p>
+  <p>Thank you for your email, we promise to get back to you as soon as possible.</p>
   </body>
   </html>
   
