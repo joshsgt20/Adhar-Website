@@ -17,25 +17,25 @@ body{
 
 h1{
    font-family: rockwell-nova ;
-   font-size: 2.2vw;
+   font-size: 2.1vw;
    
 }
 
 h2{
-   font-size: 1.8vw;
+   font-size: 1.7vw;
    font-family: rockwell-nova;
    
 }
 
 p{
  font-family: rockwell-nova;
- font-size: 1.5vw;
+ font-size: 1.4vw;
 }
 
 .Logo img{
- max-width: 20%;
- height: auto;
- padding: 0.5%;;
+ width: 20%;
+ padding: 0.5%;
+ max-height: 8vw;
 }
 
 
@@ -225,10 +225,30 @@ color: white;
   }
 }
 
-
-@media screen and (min-width: 1200px) {
-p{
-  font-size: 1vw;;
+@media screen and (min-width: 700px){
+  #SmallMenu a{
+    display: none;;
+  }
 }
 
+
+@media screen and (min-width: 1200px) {
+
+  h1{
+    font-family: rockwell-nova ;
+    font-size: 1.7vw;
+    
+ }
+ 
+ h2{
+    font-size: 1.2vw;
+    font-family: rockwell-nova;
+    
+ }
+ 
+ p{
+  font-family: rockwell-nova;
+  font-size: 1vw;
+ }
+ 
 }

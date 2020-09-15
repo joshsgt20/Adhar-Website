@@ -7,13 +7,22 @@
 }
 
 .Links{
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: flex;
-    justify-content: space-evenly
-    ;
+    justify-content: space-evenly;
+    text-decoration: none;
 }
 
+.Links a{
+    text-decoration: none;
+    color: #7a4488;
+    margin: auto;
+}
+
+.Links a:hover{
+    color: black;
+}
 ul, ol{
     font-family: rockwell-nova;
     font-size: 1.5vw;;
@@ -54,25 +63,36 @@ ul, ol{
 
 .ServiceImages{
     width: 100%;
-    overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    margin: auto;
+    text-align: center;
 }
 
 #Services img{
     width: 20%;
-    margin: auto;
+    height: auto;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 #Services2 img{
     width: 30%;
     margin: auto;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    
 }
 #DomesticAbuse img{
     width: 40%;
     margin: auto;
+    height: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+   
 }
+
 
 .Emails{
     text-decoration: none;
@@ -85,13 +105,13 @@ ul, ol{
 }
 
 table {
-    font-family: Rockwell;
+    font-family: rockwell-nova;
     border-collapse: collapse;
     width: 90%;
     font-size: 1.5vw;
     border: 0.2vw solid black;
     margin: auto;
-   
+
   }
   
 

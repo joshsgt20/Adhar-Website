@@ -53,13 +53,13 @@
     color: black;
   }
   
-  
-  
   .ProjectsCollection{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-evenly;
+   
+    
   }
   
   .Project{
@@ -91,8 +91,6 @@
     height: auto;
   }
   
-  
-  
   .ProjectInfo {
     position: absolute;
     bottom: 0;
@@ -121,11 +119,10 @@
     text-align: center;
   }
   
+
   .ProjectText p{
     font-size: 1.2vw;
   }
-  
- 
   
   .Instagram{
     width: 50%;
@@ -134,15 +131,6 @@
     margin: auto;
     float: right;
   }
-  
-  
-    
-    @media screen and (min-width:700px){
-      #SmallMenu a{
-        display: none;
-      }
-    }
-    
     .Donate{
       background-color: #7a4488;
       width: 100%;
@@ -150,8 +138,8 @@
       margin: auto;
       text-align: center;
       color: white;
-      padding-top: 2%;
-      padding-bottom: 2%;
+      padding-top: 1%;
+      padding-bottom: 1%;
       display: flex;
       flex-wrap: wrap;
   
@@ -160,12 +148,11 @@
     .DonateButton{
       background-color: white;
       width: 25%;
-      min-height: 25vh;
       margin: auto;
       color: black;
       border: 1.2vw solid #d5cfd8;
-      border-radius: 2vw;
-      padding: 1%;
+      border-radius: 1vw;
+      padding: 0.5%;
       
     }
     .DonateButton button{
