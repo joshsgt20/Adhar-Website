@@ -57,7 +57,8 @@
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    justify-content: space-evenly;
+    justify-content: center;
+  
    
     
   }
@@ -66,7 +67,7 @@
     color: white;
     width: 25%;
     height: auto;
-    margin: 1%;
+    margin: 2%;
     border: 0.2vw solid black;
     box-shadow: 1px 1px 3px black;
     overflow: hidden;
@@ -77,7 +78,7 @@
     color: white;
     width: 17%;
     height: auto;
-    margin: 1%;
+    margin: 2%;
     border: 0.2vw solid black;
     box-shadow: 1px 1px 3px black;
     overflow: hidden;
