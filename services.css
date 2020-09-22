@@ -52,7 +52,7 @@ ul, ol{
     text-decoration: none;
     box-shadow: 1px 1px 3px black;
     font-family: rockwell-nova;
-    width: 30%;
+    width: 40%;
     margin: auto;
 }
 
@@ -79,7 +79,7 @@ ul, ol{
 }
 
 #Services2 img{
-    width: 30%;
+    width: 27%;
     margin: auto;
     height: auto;
     padding-left: 5%;
@@ -87,7 +87,7 @@ ul, ol{
     
 }
 #DomesticAbuse img{
-    width: 40%;
+    width: 37%;
     margin: auto;
     height: auto;
     padding-left: 2%;
@@ -109,10 +109,11 @@ ul, ol{
 table {
     font-family: rockwell-nova;
     border-collapse: collapse;
-    width: 90%;
     font-size: 1.5vw;
     border: 0.2vw solid black;
     margin: auto;
+    max-width: 100%;
+    min-width: 90%;;
 
   }
   
@@ -123,7 +124,6 @@ table {
       padding: 1%;
       border: 0.2vw solid black;
       color: white;
-
   }
 
   td{
@@ -133,10 +133,38 @@ table {
     font-weight: 500;
   }
   
+    @media screen and (max-width: 500px) {
+        table{
+           font-size: 1.8vw;
+           font-family: rockwell-nova;
+        }     
+       }
 
-  @media screen and (min-width: 1200px) {
-    table{
-      font-size: 1vw;;
-    }
-    
-    }
+       @media screen and (max-width: 700px){
+           #Services img{
+               width: 40%;
+               padding-top: 1%;
+           }
+
+           #DomesticAbuse img{
+               width: 75%;
+               padding-top: 1%;
+           }
+
+           #Services2 img{
+               width: 70%;
+               padding-top: 2%;
+           }}
+      
+
+       @media screen and (min-width: 1100px) {
+        table{
+           font-size: 1vw;
+           font-family: rockwell-nova;
+        }}  
+       @media screen and (min-width: 1700px) { 
+        table{
+           font-size: 0.8vw;
+           font-family: rockwell-nova;  
+        }}
+       

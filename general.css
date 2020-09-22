@@ -33,9 +33,10 @@ p{
 }
 
 .Logo img{
- width: 20%;
+ width: 18%;
+ height: auto;
  padding: 0.5%;
- max-height: 8vw;
+ max-height: 7vw;
 }
 
 
@@ -221,7 +222,7 @@ color: white;
 #SmallMenuOpen{
   color: #4c2057;
   cursor: pointer;
-  font-size: 5vw;
+  font-size: 6vw;
   display: none;
   padding-left: 50vw;
   padding-right: 5vw;
@@ -234,19 +235,19 @@ color: white;
 @media screen and (max-width: 500px) {
   h1{
     font-family: rockwell-nova ;
-    font-size: 2vw;
+    font-size: 2.3vw;
     
  }
  
  h2{
-    font-size: 1.8vw;
+    font-size: 2.1vw;
     font-family: rockwell-nova;
     
  }
  
- p{
+ p, .PageTitle{
   font-family: rockwell-nova;
-  font-size: 1.6vw;
+  font-size: 2vw;
  }
  
 
@@ -261,6 +262,13 @@ color: white;
   #SmallMenuOpen{
     display: flex;
   }
+
+  .Logo img{
+    width: 25%;
+    height: auto;
+    padding: 0.5%;
+    max-height: 10vw;
+   }
 }
 
 
@@ -286,10 +294,17 @@ color: white;
     
  }
  
- p{
+ p, .PageTitle{
   font-family: rockwell-nova;
   font-size: 1vw;
- }}
+ }
+ .Logo img{
+  width: 18%;
+  height: auto;
+  padding: 0.5%;
+  max-height: 7vw;
+ }
+}
 
 
 
@@ -307,7 +322,15 @@ color: white;
     
  }
  
- p{
+ p, .PageTitle{
   font-family: rockwell-nova;
   font-size: 0.8vw;
- }}
+ }
+
+ .Logo img{
+  width: 15%;
+  height: auto;
+  padding: 0.5%;
+  max-height: 10vw;
+ }
+}
