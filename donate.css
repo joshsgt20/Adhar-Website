@@ -1,3 +1,40 @@
 .Paypal{
     width: 30%;;
 }
+
+
+.Support span{
+    font-size: 1.6vw;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.Support{
+    display: flex;
+    background-color: #582558;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+   
+}
+
+.Support div{
+    width: 25%;
+    background-color: white;;
+    border: 0.5vw solid #d5cfd8;
+    border-radius: 1vw;
+    padding: 0.5%;
+    
+}
+
+
+@media screen and (max-width: 700px) {
+    .Support div{
+      width: 90%;
+      margin-top: 2%;;
+      margin-bottom: 2%;
+    }
+
+
+    f3d2f3

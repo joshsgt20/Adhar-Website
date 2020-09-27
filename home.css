@@ -98,7 +98,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #f4eef7;
+    background-color: #fcecfc;
     overflow: hidden;
     width: 100%;
     height: 0;
@@ -134,7 +134,7 @@
     float: right;
   }
     .Donate{
-      background-color: #7a4488;
+      background-color: #582558;;
       width: 100%;
       height: auto;
       margin: auto;
@@ -152,7 +152,7 @@
       width: 25%;
       margin: auto;
       color: black;
-      border: 1.2vw solid #d5cfd8;
+      border: 0.5vw solid #d5cfd8;
       border-radius: 1vw;
       padding: 0.5%;
       

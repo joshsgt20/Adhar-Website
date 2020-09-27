@@ -1,6 +1,6 @@
 .Contact{
     width: 100%;
-    background-color: #7a4488;
+    background-color: #884c88;
     margin: auto;
     display: flex;
     ;
@@ -32,19 +32,20 @@ ul, ol{
 
 .GetSupport{
     margin: auto;
-    background-color: white;
+    background-color: #582558;
     justify-content: center;
     width: 60%;
-    border: 1.2vw solid #d5cfd8;
+    border: 0.5vw solid #d5cfd8;
     border-radius: 1vw;
     padding: 1%;
+    color: white;
     text-align: center;
 }
 
 .Support{
-    color: white;
+    color: black;
     padding: 0;
-    background-color: #7a4488;
+    background-color: #f3d2f3;
     border: 0.2vw solid black;
     font-size: 1.5vw;
     text-align: center;
@@ -60,7 +61,7 @@ ul, ol{
     transition: 0.2s;
     transform: scale(1.03);
     box-shadow: 2px 2px 5px black;
-    background-color: #663872;
+    background-color: #f396f3;
 }
 
 .ServiceImages{
