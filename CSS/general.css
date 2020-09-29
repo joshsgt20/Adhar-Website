@@ -205,7 +205,7 @@ color: white;
   padding-bottom: 1vh;
   border: 0.15vw solid #333349;
   font-family: rockwell-nova;
-  font-size: 1.5vw;
+  font-size: 2vw;
 }
 
 #SmallMenu a:hover{
@@ -241,19 +241,24 @@ color: white;
 @media screen and (max-width: 500px) {
   h1{
     font-family: rockwell-nova ;
-    font-size: 2.3vw;
+    font-size: 2.5vw;
     
  }
  
  h2{
-    font-size: 2.1vw;
+    font-size: 2.3vw;
     font-family: rockwell-nova;
     
  }
  
- p, .PageTitle{
+ p{
   font-family: rockwell-nova;
-  font-size: 2vw;
+  font-size: 2.2vw;
+ }
+
+ .PageTitle{
+  font-family: rockwell-nova;
+  font-size: 1.7vw;
  }
  
 

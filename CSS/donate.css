@@ -3,6 +3,32 @@
 }
 
 
+.Main img{
+    width: 40%;
+    margin: auto;
+
+}
+
+
+.Donate{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+}
+
+#Donate img{
+    width: 30%;
+    height: auto;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#Donate img:hover{
+    opacity: 0.8;
+}
+
 .Support span{
     font-size: 1.6vw;
     font-weight: 700;
@@ -28,6 +54,12 @@
     
 }
 
+.LocalGiving{
+   display: flex;
+   justify-content: center;
+
+}
+
 
 @media screen and (max-width: 700px) {
     .Support div{
@@ -36,5 +68,14 @@
       margin-bottom: 2%;
     }
 
+    #Donate img{
+        width: 80%;
+        padding-top: 1%;
+    }
 
-    f3d2f3
+    .Support span{
+        font-size: 2vw;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
