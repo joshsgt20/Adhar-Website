@@ -89,7 +89,7 @@ $(document).ready(function(){
   
 
   
-        document.querySelectorAll("#Button2").forEach(function(DisplaySignLanguage) {
+        document.querySelectorAll("#SignLanguageButton").forEach(function(DisplaySignLanguage) {
             DisplaySignLanguage.addEventListener("click", function() {
           gsap.from(".SignLanguageModal", {
             scale: 0.5,
@@ -104,15 +104,15 @@ $(document).ready(function(){
                 });
               });
   
-                    document.querySelectorAll("#Button").forEach(function(DisplayDrinkItems) {
-                        DisplayDrinkItems.addEventListener("click", function() {
-                      gsap.from("#PDFS", {
+                    document.querySelectorAll("#Button").forEach(function(DisplayPDFS) {
+                        DisplayPDFS.addEventListener("click", function() {
+                      gsap.from("#PDFS img", {
                         scale: 0.5,
-                        duration: 2,
+                        duration: 1.2,
+                        scale: 0.5,
                         opacity: 0,
-                        stagger: 2,
-                        ease: "back",
-                        force3D: true
+                        stagger: 0.2,
+                        ease: "power4",
                       });
   
                             });

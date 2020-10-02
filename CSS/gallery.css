@@ -8,14 +8,18 @@
 }
 
 #PDFS img{
-    width: 23%;
+    width: 22%;
     height: auto;
     padding-left: 2%;
     padding-right: 2%;
 }
 
+#PDFS {
+    display: none;
+}
 #PDFS img:hover{
     opacity: 0.8;
+
 }
 
 .SignLanguagePart1{
@@ -24,7 +28,16 @@
     text-align: center;
 }
 
+.HealthyRespect{
+    margin: auto; 
+    width: 35%; 
+    padding-left: 32.5%;
+}
 
+.HealthyRespect:hover{
+    opacity: 0.8;
+
+}
 
 
    #Button, #SignLanguageButton{
@@ -77,6 +90,24 @@
     transition: 0.2s;
     transform: scale(1.03);
    }
+
+
+
+   .ServiceImages{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+}
+
+#Services img{
+    width: 20%;
+    height: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
    
    /*Modal css*/
    .background {
@@ -139,7 +170,7 @@
          @media screen and (max-width: 500px) {
             .SignLanguageModal{
               width: 40%;
-            }
+            }}
 
    
 
