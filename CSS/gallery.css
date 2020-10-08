@@ -50,7 +50,13 @@
    }
    
    
+.Main a{
+    color: #9766a3;
+}
 
+.Main a:hover{
+    color: #582558;
+}
    
    #SignLanguageContainer{
     margin: auto;
