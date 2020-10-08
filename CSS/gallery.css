@@ -22,11 +22,6 @@
 
 }
 
-.SignLanguagePart1{
-    height: 50vh;
-    width: 100%;
-    text-align: center;
-}
 
 .HealthyRespect{
     margin: auto; 
@@ -93,7 +88,7 @@
 
 
 
-   .ServiceImages{
+   .GalleryImages{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -101,14 +96,51 @@
     text-align: center;
 }
 
-#Services img{
+#Valentines img{
     width: 20%;
     height: auto;
     padding-left: 1%;
     padding-right: 1%;
 }
 
+
+#WMHD img{
+    width: 35%;
+    height: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+
+.YouTubeVideo iframe{
+    width: 80%;
+    height: 40vh;
+    margin-left: 10%;
+    text-align: center;
+}
+#Event img{
+    width: 30%;
+    height: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#MHAW img{
+    width: 20%;
+    height: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#MHAW .SquareImage{
+    width: 28%;
+
+}
+
    
+#MHAW .MobilePhoto{
+    display: none;
+}
    /*Modal css*/
    .background {
              display: none;
@@ -170,9 +202,53 @@
          @media screen and (max-width: 500px) {
             .SignLanguageModal{
               width: 40%;
-            }}
+            }
 
+                .HealthyRespect{
+                  width: 80%;
+                  padding-left: 10%;
+                }
+            
+
+        }
+
+
+        @media screen and (max-width: 700px){
+            #Valentines img{
+                width: 35%;
+                padding-top: 2%;
+            }
+
+            #Event img{
+                width: 70%;
+                height: auto;
+                padding-top: 2%;
+            }
+        
+
+            #MHAW img{
+                width: 35%;
+                padding-top: 2%;
+            }
+        
+            #MHAW .MobilePhoto{
+                display: inline;
+                width: 50%;
+            }
+            #MHAW .SquareImage{
+                display: none;
+            
+            
+
+            }
+        }
    
+        @media screen and (min-width: 1100px) {
+            .YouTubeVideo iframe{
+                width: 60%;
+                height: 50vh;
+                margin-left: 20%;
+                
+            }
 
-
-
+        }
