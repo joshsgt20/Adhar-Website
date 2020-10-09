@@ -56,12 +56,13 @@ form{
     width: 30%;
   }
 
-  .contact a{
+  .contact a, .Main a{
       text-decoration: none;
       color: #7a4488
   }
+
   
-  .contact a:hover{
+  .contact a:hover, .Main a:hover{
     text-decoration: none;
     color: #412149
 }

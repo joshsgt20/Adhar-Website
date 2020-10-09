@@ -39,7 +39,7 @@ $(document).ready(function(){
   
       // Get the button that opens the modal
   
-      var modal_btn_multi = document.getElementsByClassName("SignLanguageModal");
+      var modal_btn_multi = document.getElementsByClassName("Modals");
   
       // Get the <span> element that closes the modal
       var span_close_multi = document.getElementsByClassName("close_multi");
