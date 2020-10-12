@@ -87,4 +87,7 @@
         font-weight: 700;
         text-transform: uppercase;
     }
+    #PaypalImage{
+        display: none;
+      }
 }
