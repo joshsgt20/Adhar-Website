@@ -7,6 +7,8 @@
     justify-content: center;
 }
 
+
+
 .PDF a{
     width: 50%;
     padding-left: 1%;
@@ -90,8 +92,8 @@
    #ProjectVideos .Modals{
     color: white;
     background-color: #582558;
-    width: 18%;
-    margin: 1%;
+    width: 20%;
+    margin: 2%;
     box-shadow: 1px 1px 3px black;
     background-color: #582558;
     border: 0.5vw solid #d5cfd8;

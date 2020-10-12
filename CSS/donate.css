@@ -60,6 +60,15 @@
 
 }
 
+.Paypal{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.Paypal form:hover{
+    opacity: 0.8;
+}
+
 
 @media screen and (max-width: 700px) {
     .Support div{

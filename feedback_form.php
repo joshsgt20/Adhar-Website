@@ -29,7 +29,7 @@ if ($sent) {
   </head>
 
 <header>
-  <nav class="Logo"><img src="Adhar Logo.png"></img>
+  <nav class="Logo"><img src="Adhar Logo-min.png"></img>
 
 
     <a class="Navigation" href="index.html">Home</a>
@@ -70,7 +70,7 @@ if ($sent) {
 <h1>Thank you for your email.</h1>
 
 <p>Someone from our team of dedicated individuals will respond shortly to your email.</p>
-  <img src="Images\Group Talking-01-01.png" style="width: 100%"> </img>
+  <img src="Images\Group Talking-01-01-min.png" style="width: 100%"> </img>
 
   </body>
 
@@ -111,7 +111,7 @@ if ($sent) {
   </head>
 
 <header>
-  <nav class="Logo"><img src="Adhar Logo.png"></img>
+  <nav class="Logo"><img src="Adhar Logo-min.png"></img>
 
 
     <a class="Navigation" href="index.html">Home</a>
@@ -152,7 +152,7 @@ if ($sent) {
 <h1>Sorry, something went wrong.</h1>
 
 <p>Return to our website to try again, or contact us directly using a different method.</p>
-  <img src="Images\Group Talking-01-01.png" style="width: 100%"> </img>
+  <img src="Images\Group Talking-01-01-min.png" style="width: 100%"> </img>
 
   </body>
 
