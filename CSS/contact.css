@@ -128,7 +128,7 @@ form{
 
 @media screen and (max-width: 500px) {
   form, input[type=submit], input, textarea{
-     font-size: 2vw;
+     font-size: 2.5vw;
      font-family: rockwell-nova;
   }     
 

@@ -221,13 +221,7 @@
         width: 60%;
       }
     
- 
-    .DonateButton{
-      width: 85%;
-      min-height: 5vh;
-      margin-top: 1vh;
-      margin-bottom: 1vh;
-    }
+
     
     .fa{
         min-width: 3%;
@@ -236,51 +230,55 @@
       }
 
 
+
       @media screen and (max-width: 500px) {
        .Caption{
-          font-size: 1.6vw;
+          font-size: 2.4vw;
           font-family: rockwell-nova;
-       }     
+       }    
+       
+       .ProjectText p{
+        font-size: 3.5vw;
+        font-family: rockwell-nova;
+     }   
+     .ProjectText h2{
+       font-size: 3.8vw;
+       font-family: rockwell-nova;  
+    }  
       }
   
+
+
+      @media screen and (max-width: 900px) { 
+        .DonateButton{
+          width: 85%;
+          min-height: 5vh;
+          margin-top: 1vh;
+          margin-bottom: 1vh;
+        }
+      }
+      
       @media screen and (min-width: 1100px) {
         .Caption{
           font-size: 1.2vw;
           font-family: rockwell-nova;
-       }}  
+       }
+      
+       .ProjectText p{
+        font-size: 1vw;
+        font-family: rockwell-nova;
+     }
+     .ProjectText h2{
+       font-size: 1.2vw;
+       font-family: rockwell-nova;
+    }}  
       @media screen and (min-width: 1700px) { 
         .Caption{
           font-size: 1vw;
           font-family: rockwell-nova;  
        }
-      }
 
-
-
-
-      @media screen and (max-width: 500px) {
-        .ProjectText p{
-           font-size: 2.3vw;
-           font-family: rockwell-nova;
-        }   
-        .ProjectText h2{
-          font-size: 2.4vw;
-          font-family: rockwell-nova;  
-       }  
-       }
-      
-
-       @media screen and (min-width: 1100px) {
-        .ProjectText p{
-           font-size: 1vw;
-           font-family: rockwell-nova;
-        }
-        .ProjectText h2{
-          font-size: 1.2vw;
-          font-family: rockwell-nova;
-       }}  
-
-
+       
        @media screen and (min-width: 1700px) { 
         .ProjectText p{
            font-size: 0.8vw;
@@ -290,4 +288,4 @@
           font-size: 1vw;
           font-family: rockwell-nova;  
        }
-       }
+      }

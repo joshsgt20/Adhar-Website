@@ -2,7 +2,7 @@
 $email_address = $_POST['email_address'];
 $feedback = $_POST['feedback'];
 
-function filter_email_header($form_field) {  
+function filter_email_header($form_field) {
   return preg_replace('/[nr|!/<>^$%*&]+/','',$form_field);
   }
 
@@ -24,12 +24,12 @@ if ($sent) {
           <link rel="stylesheet" href="https://use.typekit.net/rwg4trk.css"></link>
             <link href='CSS\general.css' rel='stylesheet' type='text/css'>
             <link href='CSS\contact.css' rel='stylesheet' type='text/css'>
-        
-            
+
+
   </head>
 
 <header>
-  <nav class="Logo"><img src="Adhar Logo-min.png"></img>
+  <nav class="Logo"><img src="Images\Adhar Logo.png" alt="Adhar Project Logo"></img>
 
 
     <a class="Navigation" href="index.html">Home</a>
@@ -82,6 +82,11 @@ if ($sent) {
     Registered address: Adhar Project, 79 St Peter's Road, Leicester, Leicestershire, LE2 1DH Tel: 0116 220 0070</p>
       </footer>
 
+        
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+<script src="index.js"></script>
+
 </html>
 
 
@@ -92,9 +97,9 @@ if ($sent) {
 
 
 
-  
+
   <?php
-  
+
   } else {
   ?><html>
 <html lang="en" dir="ltr">
@@ -106,8 +111,8 @@ if ($sent) {
           <link rel="stylesheet" href="https://use.typekit.net/rwg4trk.css"></link>
             <link href='CSS\general.css' rel='stylesheet' type='text/css'>
             <link href='CSS\contact.css' rel='stylesheet' type='text/css'>
-        
-            
+
+
   </head>
 
 <header>
