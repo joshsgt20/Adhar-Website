@@ -136,9 +136,17 @@
 #WMHD img{
     width: 35%;
     height: auto;
+
+}
+
+
+#Diwali img{
+    width: 60%;
+    height: auto;
     padding-left: 3%;
     padding-right: 3%;
 }
+
 
 
 
