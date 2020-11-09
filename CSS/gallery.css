@@ -136,6 +136,8 @@
 #WMHD img{
     width: 35%;
     height: auto;
+    padding-left: 1%;
+    padding-right: 1%;
 
 }
 
