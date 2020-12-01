@@ -71,6 +71,7 @@ ul, ol{
     flex-wrap: wrap;
     margin: auto;
     text-align: center;
+    justify-content: center;
 }
 
 #Services img{
@@ -95,6 +96,11 @@ ul, ol{
     padding-left: 2%;
     padding-right: 2%;
    
+}
+
+#B2B img{
+    width: 60%;
+  
 }
 
 

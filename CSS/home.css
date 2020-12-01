@@ -19,6 +19,19 @@
     
   }
   
+  .Banner{
+    width: 100%;
+    min-height: 10vh;
+    background-color: #582558;
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+  }
+
+  .Banner a{
+    color: white;
+  }
   @keyframes Fade{
     from{opacity: 0.5; }
     to {opacity: 2;}
@@ -125,6 +138,10 @@
   .ProjectText p{
     font-size: 1.2vw;
   }
+
+  .ProjectText h2{
+    font-size: 1.5vw;
+  }
   
   .Instagram{
     width: 50%;
@@ -173,7 +190,7 @@
     }
   
     .fa {
-      padding: 3%;
+      padding: 4% 2% 4% 2%;
       font-size: 3vw;
       min-width: 12%;
       text-align: center;
@@ -204,30 +221,10 @@
       color: white;
     }
   
-    @media screen and (max-width: 700px) {
-      .Navigation, .dropdown, .DonateLink{
-        display: none;
-      }
-      
-      #SmallMenuOpen{
-        display: flex;
-      }
 
-      .Project{
-        width:80%;
-      }
-    
-      .ProjectPortrait{
-        width: 60%;
-      }
-    
 
-    
-    .fa{
-        min-width: 3%;
-        padding: 2%;
-    }
-      }
+
+
 
 
 
@@ -267,19 +264,78 @@
     font-family: rockwell-nova;
     font-size: 1.7vw;
    }
+   
   
       }
+
+
+      @media screen and (max-width: 700px) {
+        .Navigation, .dropdown, .DonateLink{
+          display: none;
+        }
+        
+        #SmallMenuOpen{
+          display: flex;
+        }
+  
+        .Project{
+          width:70%;
+        }
+      
+        .ProjectPortrait{
+          width: 60%;
+        }
+      
+  
+      
+      .fa{
+          min-width: 3%;
+          padding: 2%;
+      }
+        }
+  
+  
+      
+      
+      @media screen and (min-width: 700px) { 
+        
+     
+          .Project{
+            width:45%;
+          }
+        
+          .ProjectPortrait{
+            width: 45%;
+          }
+    
+          .ProjectText p{
+            font-size: 2vw;
+            font-family: rockwell-nova;
+         }   
+         .ProjectText h2{
+           font-size: 2.2vw;
+           font-family: rockwell-nova;  
+        }  
+        
+  
+        }
+    
   
 
 
-      @media screen and (max-width: 900px) { 
+      @media screen and (max-width: 1000px) { 
         .DonateButton{
           width: 85%;
           min-height: 5vh;
           margin-top: 1vh;
           margin-bottom: 1vh;
         }
-      }
+
+    
+  
+        }
+    
+      
       
       @media screen and (min-width: 1100px) {
         .Caption{
@@ -294,6 +350,16 @@
      .ProjectText h2{
        font-size: 1.2vw;
        font-family: rockwell-nova;
+    }
+  
+          
+     
+    .Project{
+      width:25%;
+    }
+  
+    .ProjectPortrait{
+      width: 17%;
     }}  
       @media screen and (min-width: 1700px) { 
         .Caption{
@@ -313,3 +379,5 @@
        }
       }
     }
+
+    
