@@ -343,6 +343,12 @@ color: white;
   padding: 0.5%;
   max-height: 7vw;
  }
+
+ .Main{
+  width: 75%;
+  margin: auto;
+}
+
 }
 
 

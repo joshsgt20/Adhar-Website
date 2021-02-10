@@ -19,18 +19,24 @@
     
   }
   
-  .Banner{
-    width: 100%;
-    min-height: 10vh;
-    background-color: #582558;
-    color: white;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
 
-  }
+  
+ .Grid{
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  grid-template-areas: "title logo"
+                        "text logo"
+                      ;
+  align-items: center;
+}
+
+.Grid img{
+  width: 80%;
+  margin-left: 10%;
+}
 
   .Banner a{
-    color: white;
+    color: rgb(82, 6, 88);
   }
   @keyframes Fade{
     from{opacity: 0.5; }
@@ -265,6 +271,10 @@
     font-size: 1.7vw;
    }
    
+   .Grid{
+    display: inline;
+
+   }
   
       }
 

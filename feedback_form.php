@@ -15,6 +15,7 @@ $sent = mail('ehwbp@adharproject.org', 'Email from Website', $feedback, $headers
 if ($sent) {
 
   ?>
+  
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
